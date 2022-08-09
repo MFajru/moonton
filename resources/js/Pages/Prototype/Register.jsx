@@ -5,6 +5,7 @@ import { Link, Head } from "@inertiajs/inertia-react";
 export default function Register() {
     return (
         <>
+            {/* aju */}
             <Head title="Sign Up" />
             <div className="mx-auto max-w-screen min-h-screen bg-black text-white md:px-10 px-3">
                 <div className="fixed top-[-50px] hidden lg:block">
