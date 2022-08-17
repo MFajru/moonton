@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "../../css/button.css";
 
 Button.propTypes = {
     type: PropTypes.oneOf(["button", "submit", "reset"]),
