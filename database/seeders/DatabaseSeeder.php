@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Movie;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -22,5 +23,7 @@ class DatabaseSeeder extends Seeder
         // ]);
         $this->call(RoleTableSeeder::class);
         $this->call(UserTableSeeder::class);
+        $this->call(SubscriptionPlanTableSeeder::class);
+        $this->call(MovieTableSeeder::class);
     }
 }
