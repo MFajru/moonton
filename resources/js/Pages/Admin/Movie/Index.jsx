@@ -12,7 +12,7 @@ export default function Index({ auth, flashMessage }) {
                 </Button>
             </Link>
             {flashMessage?.message && (
-                <FlashMessage message={flashMessage.message} /> //flash Message
+                <FlashMessage message={flashMessage.message} />
             )}
         </Authenticated>
     );
