@@ -19,6 +19,7 @@ Input.propTypes = {
 
 export default function Input({
     type = "text",
+    step,
     name,
     value,
     defaultValue,
@@ -43,6 +44,7 @@ export default function Input({
         <div className="flex flex-col items-start">
             <input
                 type={type}
+                step={step}
                 name={name}
                 value={value}
                 defaultValue={defaultValue}
